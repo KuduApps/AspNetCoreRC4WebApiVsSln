@@ -6,7 +6,7 @@ namespace ClassLibrary1
     {
         public static string ReturnStr()
         {
-            return "Confused Dev";
+            return "classlibrary";
         }
     }
 }
