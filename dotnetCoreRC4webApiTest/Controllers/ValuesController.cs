@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ClassLibrary1;
 
 namespace dotnetCoreRC4webApiTest.Controllers
 {
@@ -13,7 +14,7 @@ namespace dotnetCoreRC4webApiTest.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { Class1.ReturnStr(), "value2" };
         }
 
         // GET api/values/5
