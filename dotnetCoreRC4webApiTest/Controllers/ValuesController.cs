@@ -14,7 +14,7 @@ namespace dotnetCoreRC4webApiTest.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { Class1.ReturnStr(), "value2" };
+            return new string[] { Class1.ReturnStr(), ClassLibrary2NetStandard.Class1.ReturnStr() };
         }
 
         // GET api/values/5
